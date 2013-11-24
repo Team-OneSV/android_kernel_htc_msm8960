@@ -228,4 +228,9 @@ int __init msm_gpio_of_init(struct device_node *node,
 			    struct device_node *parent);
 #endif
 
+static inline void gpio_set_value(unsigned gpio, int value)
+{
+        __gpio_set_value(gpio, value);
+}
+
 #endif /* __ASM_ARCH_MSM_GPIO_H */

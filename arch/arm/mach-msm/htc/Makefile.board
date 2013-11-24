@@ -22,3 +22,6 @@ obj-$(CONFIG_MACH_OPERAUL) += operaul/
 
 # M4_UL
 obj-$(CONFIG_MACH_M4_UL) += m4ul/
+
+# K2_CL
+obj-$(CONFIG_MACH_K2_CL) += k2_cl/
